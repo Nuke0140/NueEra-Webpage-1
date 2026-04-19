@@ -1,4 +1,5 @@
 ﻿/* ==========================================
+﻿/* ==========================================
    NUEERA - PREMIUM LOGO-ALIGNED DESIGN
    Dark & Light Theme System
    ========================================== */
@@ -6992,6 +6993,7 @@ html, body {
 .timeline-progress-line {
     position: absolute;
     left: 0;
+    left: 28px;
     top: 0;
     width: 3px;
     height: 100%;
@@ -7127,6 +7129,7 @@ html, body {
     align-items: baseline;
     gap: 1rem;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
 /* Typography */
@@ -7518,20 +7521,35 @@ html, body {
     /* Responsive Journey Timeline */
     .timeline-progress-line {
         left: 20px;
+        left: 18px;
     }
     
     .journey-item {
         gap: 1.5rem;
         padding: 2rem 0;
+        gap: 1rem;
+        padding: 1.5rem 0;
         align-items: flex-start;
     }
 
     .journey-marker {
+        width: 40px;
+        height: 40px;
         margin-left: 0;
+    }
+
+    .marker-ring {
+        width: 40px;
+        height: 40px;
+    }
+
+    .marker-number {
+        font-size: 0.9rem;
     }
 
     .journey-content {
         padding: 1.5rem;
+        padding: 1.25rem;
         border-radius: 16px;
     }
     
